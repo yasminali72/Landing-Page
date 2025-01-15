@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import man from "/src/assets/images/man.png"
 
 export default function Contact() {
   const [email, setEmail] = useState("");
@@ -63,7 +64,7 @@ export default function Contact() {
             {error ? <h3 className="error">{error}</h3> : sucess?<h3 className="sucess">{sucess}</h3>:''}
           </div>
           <div className="image">
-            <img src="/public/bohemian-man-with-his-arms-crossed.png" alt="" />
+            <img src={man} alt="" />
           </div>
         </div>
       </section>

@@ -1,4 +1,6 @@
 import React from 'react'
+import chair from "/src/assets/images/chair.png"
+import headphone from "/src/assets/images/headphone.png"
 
 export default function About() {
   return (
@@ -21,7 +23,7 @@ brand-building framework</p>
         <div className="image1">
             <div className="detail">
 <div className="detail-image">
-<img src="/public/empty-modern-room-with-furniture.png" alt="" />
+<img src={chair} alt="" />
 </div>               <div className="detail-price">
 <p>Minimal Chair</p>
                 <div className="price">
@@ -34,7 +36,7 @@ brand-building framework</p>
         <div className="image2">
         <div className="detail" id='detail2'>
 <div className="detail-image">
-<img src="/public/levitating-music-headphones-display.png" alt="" />
+<img src={headphone} alt="" />
 </div>               <div className="detail-price">
 <p>Beats Headphone</p>
                 <div className="price">

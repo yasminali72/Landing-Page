@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Navbar from "../Navbar/Navbar";
-
+import man from "/src/assets/images/man.png"
 export default function Home() {
   const [search, setSearch] = useState('');
 function searching(){
@@ -14,7 +14,7 @@ function searching(){
           <div className="container">
             <div className="hero-image">
               <img
-                src="/public/bohemian-man-with-his-arms-crossed.png"
+                src={man}
                 alt=""
               />
             </div>
@@ -31,7 +31,7 @@ function searching(){
             <div className="hero-about">
               <div className="about-image">
                 <img
-                  src="/public/bohemian-man-with-his-arms-crossed.png"
+                  src={man}
                   alt=""
                 />
               </div>

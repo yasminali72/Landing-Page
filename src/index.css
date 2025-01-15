@@ -50,7 +50,7 @@ body {
 }
 
 .hero {
-  background-image: url(../public/colourful-cubes-drawn-arrow.jpg);
+  background-image: url(/src/assets/images/header.jpg);
   background-size: cover;
   background-position: center;
   height: 102vh;

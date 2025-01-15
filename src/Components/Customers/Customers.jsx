@@ -1,4 +1,7 @@
 import React from "react";
+import person1 from "/src/assets/images/person 1.jpg"
+import person2  from "/src/assets/images/person 2.jpg"
+
 
 export default function Customers() {
   return (
@@ -9,7 +12,7 @@ export default function Customers() {
             <div className="revenue1">
               <div className="circle1">
               <div className="card1">
-                <img src="/public/person 1.jpg" alt="" />
+                <img src={person1} alt="" />
                 <div className="card-text">
 <h1>$7,654 <i class="fa-solid fa-circle-chevron-up"></i></h1>
 <p>TOTAL REVENUE <span>+$232</span></p>
@@ -38,7 +41,7 @@ export default function Customers() {
                 <h1>$9,978 <i class="fa-solid fa-circle-chevron-up"></i></h1>
 <p>TOTAL REVENUE <span>+$349</span></p>
                 </div>
-                 <img src="/public/person 2.jpg" alt="" />
+                 <img src={person2} alt="" />
                 
                 </div>
                 <svg width="300" height="150" xmlns="http://www.w3.org/2000/svg">
